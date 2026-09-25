@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="165" viewBox="0 0 550 165" role="img" aria-label="BienesRaices-FullStack">
+<rect x="1" y="1" width="548" height="163" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<rect x="1" y="1" width="5" height="163" rx="2" fill="#58a6ff"/>
+<g fill="none" stroke="#8b949e" stroke-width="2" stroke-linejoin="round"><path d="M25 27h10l4 4h13v17H25z"/><path d="M25 31h27"/></g>
+<text x="66" y="44" fill="#58a6ff" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold">BienesRaices-FullStack</text>
+<text x="25" y="79" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="15">Aplicación web inmobiliaria con arquitectura MVC,</text>
+<text x="25" y="102" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="15">gestión de propiedades y base de datos MySQL.</text>
+<line x1="25" y1="113" x2="525" y2="113" stroke="#30363d"/>
+<circle cx="30" cy="139" r="5" fill="#58a6ff"/>
+<text x="43" y="144" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="13">PHP · MySQL · JavaScript</text>
+<path d="M510 132h13m-6-6 6 6-6 6" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
