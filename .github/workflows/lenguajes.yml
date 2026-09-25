@@ -17,19 +17,144 @@ jobs:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Generar tarjeta de lenguajes
-        uses: lowlighter/metrics@latest
+      - name: Configurar Python
+        uses: actions/setup-python@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: TadeoPoli
-          template: classic
-          base: ""
-          filename: assets/lenguajes.svg
+          python-version: "3.12"
 
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_limit: 6
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 60
-          plugin_languages_recent_days: 0
+      - name: Generar tarjeta de lenguajes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+          from collections import Counter
+          from html import escape
+
+          USER = "TadeoPoli"
+          TOKEN = os.environ["GH_TOKEN"]
+
+          def github_get(path):
+              req = urllib.request.Request(
+                  f"https://api.github.com{path}",
+                  headers={
+                      "Authorization": f"Bearer {TOKEN}",
+                      "Accept": "application/vnd.github+json",
+                      "User-Agent": "github-profile-languages"
+                  }
+              )
+              with urllib.request.urlopen(req) as response:
+                  return json.load(response)
+
+          totals = Counter()
+          page = 1
+
+          while True:
+              repos = github_get(
+                  f"/users/{USER}/repos?per_page=100&page={page}"
+              )
+
+              if not repos:
+                  break
+
+              for repo in repos:
+                  if repo["fork"] or repo["archived"]:
+                      continue
+
+                  languages = github_get(
+                      f"/repos/{USER}/{repo['name']}/languages"
+                  )
+
+                  totals.update(languages)
+
+              page += 1
+
+          if not totals:
+              raise RuntimeError(
+                  "No se encontraron lenguajes en los repositorios."
+              )
+
+          top = totals.most_common(6)
+          total_bytes = sum(totals.values())
+
+          colors = {
+              "PHP": "#777BB4",
+              "JavaScript": "#F7DF1E",
+              "Python": "#3572A5",
+              "HTML": "#E34C26",
+              "CSS": "#563D7C",
+              "TypeScript": "#3178C6",
+              "Java": "#B07219",
+              "C": "#555555",
+              "C++": "#F34B7D",
+              "Shell": "#89E051"
+          }
+
+          height = 85 + len(top) * 42
+
+          svg = [
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="450" height="{height}" '
+              f'viewBox="0 0 450 {height}">',
+              '<rect width="450" height="100%" '
+              'rx="10" fill="#0d1117" stroke="#30363d"/>',
+              '<text x="25" y="35" fill="#e6edf3" '
+              'font-size="17" font-family="Arial" '
+              'font-weight="bold">Lenguajes más utilizados</text>'
+          ]
+
+          for i, (language, amount) in enumerate(top):
+              percentage = amount / total_bytes * 100
+              y = 65 + i * 42
+              color = colors.get(language, "#8b949e")
+              width = percentage / 100 * 400
+
+              svg.extend([
+                  f'<text x="25" y="{y}" fill="#e6edf3" '
+                  f'font-size="13" font-family="Arial">'
+                  f'{escape(language)}</text>',
+
+                  f'<text x="425" y="{y}" fill="#8b949e" '
+                  f'font-size="12" text-anchor="end" '
+                  f'font-family="Arial">'
+                  f'{percentage:.1f}%</text>',
+
+                  f'<rect x="25" y="{y+10}" width="400" '
+                  f'height="8" rx="4" fill="#21262d"/>',
+
+                  f'<rect x="25" y="{y+10}" '
+                  f'width="{width:.2f}" height="8" '
+                  f'rx="4" fill="{color}"/>'
+              ])
+
+          svg.append('</svg>')
+
+          os.makedirs("assets", exist_ok=True)
+
+          with open(
+              "assets/lenguajes.svg",
+              "w",
+              encoding="utf-8"
+          ) as file:
+              file.write("\n".join(svg))
+
+          print("Tarjeta generada correctamente.")
+          print("Lenguajes encontrados:", dict(totals))
+          PY
+
+      - name: Guardar tarjeta en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/lenguajes.svg
+
+          if git diff --cached --quiet; then
+            echo "La tarjeta no necesita actualizarse."
+          else
+            git commit -m "Actualizar estadísticas de lenguajes"
+            git push
+          fi
