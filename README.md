@@ -82,7 +82,15 @@ El proyecto integra herramientas de **Blue Team** para el monitoreo, detección 
 
 - **Fase 2 – Simulación de ataques:** Ejecución de ataques controlados desde Kali Linux, recopilación de evidencias y análisis de los eventos generados en la infraestructura defensiva.
 
-**[Ver repositorio completo](https://github.com/TadeoPoli/Laboratorio-SOC)**
+<div align="center">
+  <a href="https://github.com/TadeoPoli/Laboratorio-SOC">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=TadeoPoli&repo=Laboratorio-SOC&theme=github_dark&hide_border=false"
+      alt="Repositorio Laboratorio SOC"
+      width="450"
+    />
+  </a>
+</div>
 
 ---
 
@@ -104,7 +112,17 @@ Este es uno de mis proyectos más completos de desarrollo web, en el que aplico 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
 
-**[Ver repositorio de BienesRaices](https://github.com/TadeoPoli/BienesRaices-FullStack)**
+
+<div align="center">
+  <a href="https://github.com/TadeoPoli/BienesRaices-FullStack">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=TadeoPoli&repo=BienesRaices-FullStack&theme=github_dark&hide_border=false"
+      alt="Repositorio BienesRaices FullStack"
+      width="450"
+    />
+  </a>
+</div>
+
 
 ### 📂 Otros proyectos de programación
 
