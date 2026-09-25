@@ -112,13 +112,15 @@ También cuento con proyectos de menor escala, principalmente orientados al desa
 
 ---
 
+
 ## 📊 Lenguajes más utilizados
 
 <div align="center">
 
-![Lenguajes más utilizados](https://github-readme-stats.vercel.app/api/top-langs/?username=TadeoPoli&layout=compact&theme=transparent&hide_border=true&langs_count=6)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TadeoPoli" alt="Lenguajes más utilizados" />
 
 </div>
+
 
 ---
 
