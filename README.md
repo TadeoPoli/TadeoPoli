@@ -23,36 +23,38 @@ Además, poseo conocimientos de programación y desarrollo web, que complemento 
 
 ---
 
+
 ## 🛡️ Tecnologías y herramientas
 
 ### Blue Team / SOC
 
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge)
-![Suricata](https://img.shields.io/badge/Suricata-EF6C00?style=for-the-badge)
-![TheHive](https://img.shields.io/badge/TheHive-F7B500?style=for-the-badge)
-![Cortex](https://img.shields.io/badge/Cortex-455A64?style=for-the-badge)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Kali Purple](https://img.shields.io/badge/Kali_Purple-8755A5?style=for-the-badge&logo=kalilinux&logoColor=white)
+[![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge)](https://wazuh.com/)
+[![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+[![Suricata](https://img.shields.io/badge/Suricata-EF6C00?style=for-the-badge)](https://suricata.io/)
+[![TheHive](https://img.shields.io/badge/TheHive-F7B500?style=for-the-badge)](https://thehive-project.org/)
+[![Cortex](https://img.shields.io/badge/Cortex-455A64?style=for-the-badge)](https://github.com/TheHive-Project/Cortex)
+[![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
+[![Kali Purple](https://img.shields.io/badge/Kali_Purple-8755A5?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/docs/introduction/kali-purple/)
 
 ### Red Team / Pentesting
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-214478?style=for-the-badge)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
-![Hydra](https://img.shields.io/badge/Hydra-C0392B?style=for-the-badge)
-![Impacket](https://img.shields.io/badge/Impacket-555555?style=for-the-badge)
-![Atomic Red Team](https://img.shields.io/badge/Atomic_Red_Team-B22222?style=for-the-badge)
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/)
+[![Nmap](https://img.shields.io/badge/Nmap-214478?style=for-the-badge)](https://nmap.org/)
+[![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)](https://www.metasploit.com/)
+[![Hydra](https://img.shields.io/badge/Hydra-C0392B?style=for-the-badge)](https://github.com/vanhauser-thc/thc-hydra)
+[![Impacket](https://img.shields.io/badge/Impacket-555555?style=for-the-badge)](https://github.com/fortra/impacket)
+[![Atomic Red Team](https://img.shields.io/badge/Atomic_Red_Team-B22222?style=for-the-badge)](https://github.com/redcanaryco/atomic-red-team)
 
 ### Programación y desarrollo
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+
 
 ---
 
