@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="190" viewBox="0 0 650 190" role="img" aria-label="Laboratorio-SOC">
+<rect x="1" y="1" width="648" height="188" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<rect x="1" y="1" width="5" height="188" rx="2" fill="#3fb950"/>
+<g fill="none" stroke="#8b949e" stroke-width="2" stroke-linejoin="round"><path d="M25 27h10l4 4h13v17H25z"/><path d="M25 31h27"/></g>
+<text x="66" y="44" fill="#58a6ff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold">Laboratorio-SOC</text>
+<text x="25" y="79" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="15">Laboratorio de ciberseguridad: monitoreo, detección y</text>
+<text x="25" y="102" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="15">análisis de ataques controlados en un entorno SOC.</text>
+<line x1="25" y1="138" x2="625" y2="138" stroke="#30363d"/>
+<circle cx="30" cy="164" r="5" fill="#3fb950"/>
+<text x="43" y="169" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="13">Blue Team · Red Team · Wazuh · Sysmon · TheHive</text>
+<path d="M610 157h13m-6-6 6 6-6 6" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
