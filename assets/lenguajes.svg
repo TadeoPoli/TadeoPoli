@@ -2,27 +2,27 @@
 <rect width="450" height="100%" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="25" y="35" fill="#e6edf3" font-size="17" font-family="Arial" font-weight="bold">Lenguajes más utilizados</text>
 <text x="25" y="65" fill="#e6edf3" font-size="13" font-family="Arial">PHP</text>
-<text x="425" y="65" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">59.2%</text>
+<text x="425" y="65" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">43.4%</text>
 <rect x="25" y="75" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="75" width="236.62" height="8" rx="4" fill="#777BB4"/>
+<rect x="25" y="75" width="173.64" height="8" rx="4" fill="#777BB4"/>
 <text x="25" y="107" fill="#e6edf3" font-size="13" font-family="Arial">SCSS</text>
-<text x="425" y="107" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">16.7%</text>
+<text x="425" y="107" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">21.0%</text>
 <rect x="25" y="117" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="117" width="66.73" height="8" rx="4" fill="#8b949e"/>
-<text x="25" y="149" fill="#e6edf3" font-size="13" font-family="Arial">HTML</text>
-<text x="425" y="149" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">6.5%</text>
+<rect x="25" y="117" width="83.84" height="8" rx="4" fill="#8b949e"/>
+<text x="25" y="149" fill="#e6edf3" font-size="13" font-family="Arial">Python</text>
+<text x="425" y="149" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">12.6%</text>
 <rect x="25" y="159" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="159" width="25.99" height="8" rx="4" fill="#E34C26"/>
-<text x="25" y="191" fill="#e6edf3" font-size="13" font-family="Arial">JavaScript</text>
-<text x="425" y="191" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">5.1%</text>
+<rect x="25" y="159" width="50.57" height="8" rx="4" fill="#3572A5"/>
+<text x="25" y="191" fill="#e6edf3" font-size="13" font-family="Arial">HTML</text>
+<text x="425" y="191" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">9.1%</text>
 <rect x="25" y="201" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="201" width="20.43" height="8" rx="4" fill="#F7DF1E"/>
-<text x="25" y="233" fill="#e6edf3" font-size="13" font-family="Arial">Python</text>
-<text x="425" y="233" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">4.5%</text>
+<rect x="25" y="201" width="36.49" height="8" rx="4" fill="#E34C26"/>
+<text x="25" y="233" fill="#e6edf3" font-size="13" font-family="Arial">JavaScript</text>
+<text x="425" y="233" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">8.0%</text>
 <rect x="25" y="243" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="243" width="18.16" height="8" rx="4" fill="#3572A5"/>
+<rect x="25" y="243" width="32.02" height="8" rx="4" fill="#F7DF1E"/>
 <text x="25" y="275" fill="#e6edf3" font-size="13" font-family="Arial">Hack</text>
-<text x="425" y="275" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">4.1%</text>
+<text x="425" y="275" fill="#8b949e" font-size="12" text-anchor="end" font-family="Arial">3.0%</text>
 <rect x="25" y="285" width="400" height="8" rx="4" fill="#21262d"/>
-<rect x="25" y="285" width="16.37" height="8" rx="4" fill="#8b949e"/>
+<rect x="25" y="285" width="12.01" height="8" rx="4" fill="#8b949e"/>
 </svg>
