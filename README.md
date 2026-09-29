@@ -127,7 +127,22 @@ Este es uno de mis proyectos más completos de desarrollo web, en el que aplico 
 
 ### 📂 Otros proyectos de programación
 
-También cuento con proyectos de menor escala, principalmente orientados al desarrollo Front-End, en los que he trabajado con HTML, CSS y JavaScript para practicar y ampliar mis conocimientos de desarrollo web.
+Además de BienesRaices, cuento con proyectos de menor escala orientados a practicar distintas áreas del desarrollo web, desde interfaces Front-End hasta aplicaciones con Python, Flask y MySQL.
+
+#### 🎧 FestivalMusica
+Sitio web Front-End responsive para un festival ficticio, desarrollado con **JavaScript, SCSS y Gulp**, con galería interactiva, procesamiento de imágenes y diseño adaptable.
+
+➡️ [Ver repositorio](https://github.com/TadeoPoli/FestivalMusica)
+
+#### ✅ Lista de tareas con Flask
+Aplicación web desarrollada con **Python, Flask y MySQL**, con registro e inicio de sesión, gestión CRUD de tareas y separación de datos entre usuarios.
+
+➡️ [Ver repositorio](https://github.com/TadeoPoli/Lista_Tarea_Flask)
+
+#### ✉️ MailerApp
+Aplicación web educativa desarrollada con **Python, Flask y MySQL** para registrar, consultar y buscar correos, con integración opcional con **SendGrid**.
+
+➡️ [Ver repositorio](https://github.com/TadeoPoli/MailerApp)
 
 ---
 
