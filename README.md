@@ -28,13 +28,16 @@ Además, poseo conocimientos de programación y desarrollo web, que complemento 
 
 ### Blue Team / SOC
 
+[![Splunk Enterprise](https://img.shields.io/badge/Splunk_Enterprise-000000?style=for-the-badge&logo=splunk&logoColor=white)](https://www.splunk.com/en_us/products/splunk-enterprise.html)
+[![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+[![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/windows-server/)
 [![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge)](https://wazuh.com/)
 [![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge)](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 [![Suricata](https://img.shields.io/badge/Suricata-EF6C00?style=for-the-badge)](https://suricata.io/)
 [![TheHive](https://img.shields.io/badge/TheHive-F7B500?style=for-the-badge)](https://thehive-project.org/)
 [![Cortex](https://img.shields.io/badge/Cortex-455A64?style=for-the-badge)](https://github.com/TheHive-Project/Cortex)
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
-[![Kali Purple](https://img.shields.io/badge/Kali_Purple-8755A5?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/docs/introduction/kali-purple/)
+[![Kali Purple](https://img.shields.io/badge/Kali_Purple-8755A5?style=for-the-badge&logo=kalilinux&logoColor=white)](https://www.kali.org/blog/kali-linux-2023-1-release/)
 
 ### Red Team / Pentesting
 
@@ -59,6 +62,28 @@ Además, poseo conocimientos de programación y desarrollo web, que complemento 
 ---
 
 ## 🚀 Proyectos destacados
+
+### 🛡️ Laboratorio Active Directory — Security Monitoring & Threat Detection with Splunk
+
+**Monitoreo de Active Directory, detección y correlación de eventos de seguridad.**
+
+<div align="center">
+
+<a href="https://github.com/TadeoPoli/Laboratorio-AD-Splunk">
+  <img src="./assets/Integraci%C3%B3n%20de%20Active%20Directory%20y%20Splunk.png" alt="Arquitectura del laboratorio Active Directory y Splunk" width="850">
+</a>
+
+</div>
+
+Laboratorio virtual con **Windows Server 2022, Active Directory y Windows 10**, orientado al monitoreo SOC / Blue Team. Centraliza registros mediante **Splunk Enterprise y Universal Forwarder**, incorporando telemetría de Windows Security, Sysmon y PowerShell.
+
+El proyecto incluye el desarrollo de **consultas SPL**, seis simulaciones controladas con sus alertas programadas y la **correlación temporal de eventos de diferentes fuentes**. La documentación presenta los resultados y las limitaciones de las detecciones en el entorno de laboratorio.
+
+**Tecnologías principales:** Active Directory, Windows Server 2022, Windows 10, Splunk Enterprise, Universal Forwarder, Sysmon y Kali Purple.
+
+➡️ **[Ver repositorio y documentación del laboratorio](https://github.com/TadeoPoli/Laboratorio-AD-Splunk)**
+
+---
 
 ### 🛡️ Laboratorio SOC – Blue Team & Red Team
 
