@@ -81,7 +81,13 @@ El proyecto incluye el desarrollo de **consultas SPL**, seis simulaciones contro
 
 **Tecnologías principales:** Active Directory, Windows Server 2022, Windows 10, Splunk Enterprise, Universal Forwarder, Sysmon y Kali Purple.
 
-➡️ **[Ver repositorio y documentación del laboratorio](https://github.com/TadeoPoli/Laboratorio-AD-Splunk)**
+<div align="center">
+  <a href="https://github.com/TadeoPoli/Laboratorio-AD-Splunk">
+    <img src="./assets/tarjeta-ad-splunk.svg"
+         alt="Repositorio Laboratorio AD + Splunk"
+         width="550">
+  </a>
+</div>
 
 ---
 
